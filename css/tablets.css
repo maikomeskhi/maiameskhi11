@@ -1,0 +1,64 @@
+@media (max-width: 1023px) {
+  .container {
+    padding: 0 24px;
+  }
+
+  /* filter section */
+  .filter_section {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+
+  .popular,
+  .filters {
+    padding: 10px 14px;
+  }
+
+  .span1,
+  .span2 {
+    font-size: 14px;
+  }
+
+  /* cards grid */
+  .card-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  article img.img {
+    width: 100%;
+    height: auto;
+  }
+
+  .article_div {
+    padding: 10px;
+  }
+
+  .logodiv span {
+    font-size: 13px;
+  }
+
+  .likesandviews span {
+    font-size: 11px;
+  }
+
+  article.none {
+    display: none;
+  }
+
+  /* signup button */
+  .buttondiv {
+    margin: 40px 0;
+    text-align: center;
+  }
+
+  .singupbutton {
+    width: 100%;
+    max-width: 320px;
+    padding: 14px;
+    font-size: 15px;
+  }
+}
