@@ -1,0 +1,152 @@
+:root{
+  --primary-Color1: #0D0C22;
+  --primary-Color2: #EA4C89;
+  --Secondary-Color1: #3D3D4E;
+  --Secondary-Color2: #FFFFFF;
+  --Secondary-Color3: #FAEBF9;
+  --border-radius-popular: 8px;
+  --border-radius-filters: 16px;
+  --border-radius-singup: 30px;
+}
+
+body{
+  font-family: "Inter", sans-serif;
+}
+
+.container{
+  width: min(100%, 1440px);
+  margin: auto;
+  padding: 70px;
+}
+
+/* --------- section1 --------- */
+
+.filter_section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popular{
+  border-radius: var(--border-radius-popular);
+  border: 1px solid #3D3D4E;
+  display: flex;
+  justify-content: center;
+  padding: 9px 16px;
+  background-color: var(--Secondary-Color3);
+}
+
+.span1{
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0%;
+vertical-align: middle;
+margin-right: 8px;
+color: var(--primary-Color1);
+}
+
+.filters{
+  border-radius: var(--border-radius-filters);
+  border: 1px solid #3D3D4E;
+  display: flex;
+  justify-content: center;
+  padding: 9px 16px;
+  background-color: var(--Secondary-Color3);
+}
+
+.span2{
+  font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0%;
+vertical-align: middle;
+margin-left: 8px;
+color: var(--primary-Color1);
+}
+
+/* --------- section2 --------- */
+
+.card-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 1300px;
+  padding-block: 70px;
+  gap: 40px 20px;
+}
+
+article{
+  height: 346px;
+}
+
+.article_div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.likesandviews{
+  display: flex;
+  width: 101px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logodiv{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 122px;
+}
+
+.likesdiv, .viewsdiv{
+  width: 43px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.article_span{
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0%;
+vertical-align: middle;
+color: var(--primary-Color1);
+}
+
+.likesspan, .viewsspan{
+font-weight: 400;
+font-style: Regular;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0%;
+vertical-align: middle;
+color: var(--Secondary-Color1);
+}
+
+/* -------- button --------- */
+
+.buttondiv{
+  display: flex;
+  justify-content: space-around;
+}
+
+.singupbutton{
+  background-color: var(--primary-Color2);
+  color: var(--Secondary-Color2);
+  padding: 10px 33px;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  border: none;
+  border-radius: var(--border-radius-singup);
+}

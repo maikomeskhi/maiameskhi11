@@ -1,0 +1,24 @@
+@media (max-width: 321px) {
+  .container {
+    width: min(100%, 320px);
+    margin: auto;
+    padding: 8px;
+  }
+
+  /*----- section2 -----*/
+
+  .img {
+    width: 304px;
+    height: 304px;
+  }
+
+  .card-section {
+    grid-template-columns: 1fr;
+    width: 304px;
+    padding-block: 40px;
+  }
+
+  .none {
+    display: none;
+  }
+}
